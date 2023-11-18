@@ -1,4 +1,4 @@
-module micro-service-go-component/log
+module github.com/yunduan16/micro-service-go-component-log
 
 go 1.17
 
