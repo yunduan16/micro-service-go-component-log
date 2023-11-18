@@ -18,7 +18,7 @@ func TestLogger(t *testing.T) {
     var b = aa{Name: "lfffffffffffffffff", Age: make(chan string, 1)}
     logger, err := New(
         TimestampFormat("2006-01-02 15:04:05.000000"),
-        FileName("/Users/lifangfang/wwwroot/gowork/src/testtrace222/testtrace.log"),
+        FileName("/Users/testname/go/src/test/testtrace.log"),
     )
     fmt.Println(err)
 
